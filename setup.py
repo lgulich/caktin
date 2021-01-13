@@ -8,7 +8,7 @@ with open(file_path.parent / 'README.md', 'r') as fh:
 
 setuptools.setup(
     name='caktin',
-    version=v0.1.0,
+    version='v0.1.0',
     author='Lionel Gulich',
     author_email='lgulich@ethz.ch',
     url='https://github.com/lgulich/caktin',
