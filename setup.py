@@ -8,10 +8,11 @@ with open(file_path.parent / 'README.md', 'r') as fh:
 
 setuptools.setup(
     name='caktin',
-    version=0.1.0,
+    version=v0.1.0,
     author='Lionel Gulich',
     author_email='lgulich@ethz.ch',
     url='https://github.com/lgulich/caktin',
+    download_url="https://github.com/lgulich/caktin/archive/v0.1.0.tar.gz",
     description='A tool for compiling cakti.',
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
